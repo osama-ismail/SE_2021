@@ -8,7 +8,7 @@ NuHa TaHseen <br>
 Mohammad Taha <br>
 Ehab M Dweikat <br> 
 
-App Name : eTeaching 
+App Name : eTeaching <br> 
 Version: 1.0.0.000
 
 Product Backlog: 
