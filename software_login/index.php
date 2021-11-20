@@ -9,7 +9,6 @@ $arr1 = str_split($user);
 
   $con = mysqli_connect("localhost","root","","software");
 
-
   if($arr1[0]=="p")
   $sql = "SELECT * FROM `prof` WHERE  `id` = '$user' && `password`='$password'"; 
   else if($arr1[0]=="t")
