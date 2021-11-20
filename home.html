@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <title>corses</title>
+    <link rel="stylesheet" href ="style2.css">
+
+</head>
+<body>
+<div class ="main">
+    <div class ="navbar">
+        <div class="icon">
+            <h2 class ="logo">MyCourses</h2>
+        </div>
+        <div class="menue">
+            <ul>
+               <li><h2>Home</h2></li>
+                <div class="translate-dropdown">
+                    <select>
+                        <option><button>Clculas1</button></option>
+                        <option><button>c++</button></option>
+                        <option><button>Chemistry</button></option>
+                        <option><button>Physics</button></option>
+                        <option><button>English 101</button></option>
+                    </select>
+                    </div>
+                <li><a href="#">Recent</a></li>
+                <li><a href="#">Language</a></li>
+                <li><a href="#">Logout</a></li>
+
+            </ul>
+
+                </ul>
+
+        </div>
+        <div class ="search">
+            <input class="srch" type="search" name="" placeholder="type to search">
+            <a href="#"> <button class="btn">Search</button></a>
+        </div>
+        <script>
+            function myFunction() {
+                var input, filter, ul, li, a, i;
+                input = document.getElementById("search");
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("menue");
+                li = ul.getElementsByTagName("option");
+                for (i = 0; i < li.length; i++) {
+                    a = li[i].getElementsByTagName("a")[0];
+                    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                        li[i].style.display = "";
+                    } else {
+                        li[i].style.display = "none";
+                    }
+                }
+            }
+        </script>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
