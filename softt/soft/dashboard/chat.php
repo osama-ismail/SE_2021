@@ -138,6 +138,7 @@ else{
     
 </head>
 <body>
+  <button style="background-color: black; color:white; padding-top: 10px;  padding-bottom: 10px; width: 100px; border-bottom-right-radius: 40px ;" class="back">Back</button>
 <h2 class="h2_name2">chatting at course </h2> <h2 class="h2_name" id="h2_name"> <?php echo($data1['name']);?></h2> 
 <section class="section_chat">
 <?php 
@@ -147,24 +148,25 @@ foreach($data as $pro):
 
 ?>
     <div class="div_chat2"><h3><?= $pro['sender_name']." id= ".$pro['sender_id'];?></h3>
-    <h5><?= $pro['msg'];?>  </h5></div>
+    <h5 style="margin-left: 3px;"><?= $pro['msg'];?>  </h5></div>
 
     <?php   endforeach; ?>
 
 
     <div></div>
     <form action="chat.php" method="POST">
-    <button>submit</button>
-
+    <!-- <button>submit</button> -->
+<div>1</div>
 <div class="div_chat1"><input id="in1" placeholder="write a msg . ." name="msg" onchange="do1()"  type="text" name="" id=""></div>
 
-</form><script> 
+</form></section>
+
+<script> 
 function do1(){
     document.getElementById("in1").style.border="none";
 
 }
 
 </script>
-</section>
 </body>
 </html>
