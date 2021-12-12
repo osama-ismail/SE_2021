@@ -12,7 +12,7 @@ App Name : eTeaching <br>
 Version: 1.0.0.000
 
 Product Backlog: 
-https://trello.com/b/7RvpDNWO/usersto <br> 
+https://trello.com/b/RIo10wYF/sprintplanning<br> 
 
 Slack channel: 
 https://join.slack.com/t/seteamnetwork/shared_invite/zt-x0fidpz4-tPV0bEsNbmJRANKLBVPgcQ <br> 
