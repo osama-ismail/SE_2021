@@ -20,7 +20,8 @@ Slack channel:
 https://join.slack.com/t/seteamnetwork/shared_invite/zt-x0fidpz4-tPV0bEsNbmJRANKLBVPgcQ <br> 
 
 
-
+Report "uml diagram and tables" .
+[Happy Grad1 (1).docx](https://github.com/osama-ismail/SE_2021/files/7774476/Happy.Grad1.1.docx)
 
  
  
